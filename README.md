@@ -1,8 +1,3 @@
-<h1 align="center">👋 Olá, eu sou Csrand</h1>
-
-
-<br>
-
 ---
 
 ## 🌐 Web
