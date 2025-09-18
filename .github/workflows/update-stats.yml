@@ -2,31 +2,23 @@ name: Update GitHub Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *' # roda todo dia à meia-noite
-  workflow_dispatch:    # permite rodar manualmente
+    - cron: '0 0 * * *' # todo dia à meia-noite
+  workflow_dispatch:
 
 jobs:
-  stats:
+  update-readme:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18'
-
-      - name: Generate stats
+      - name: Update cache buster
         run: |
-          npx github-readme-stats --user Csrand \
-            --theme radical \
-            --show_icons true \
-            --count_private true \
-            --include_all_commits true \
-            --output README_STATS.md
-        env:
-          GITHUB_TOKEN: ${{ secrets.AAA }}
+          sed -i "s/v=[0-9]*/v=$(date +%s)/" README.md
 
-      - name: Update README
+      - name: Commit and push
         run: |
-          cat README_HEADER.md README_STATS.md README_FOOTER.md > README.md
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: update stats cache [skip ci]" || echo "No changes"
+          git push
