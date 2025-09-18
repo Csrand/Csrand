@@ -1,0 +1,32 @@
+name: Update GitHub Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # roda todo dia à meia-noite
+  workflow_dispatch:    # permite rodar manualmente
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Generate stats
+        run: |
+          npx github-readme-stats --user Csrand \
+            --theme radical \
+            --show_icons true \
+            --count_private true \
+            --include_all_commits true \
+            --output README_STATS.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.AAA }}
+
+      - name: Update README
+        run: |
+          cat README_HEADER.md README_STATS.md README_FOOTER.md > README.md
