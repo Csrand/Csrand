@@ -37,3 +37,12 @@
 ![Lisp](https://img.shields.io/badge/-Lisp-purple?style=flat-square&logo=lisp&logoColor=white)
 
 ---
+<!-- GitHub Stats -->
+<p align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=csrand&show_icons=true&theme=radical&count_private=true&include_all_commits=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=csrand&layout=compact&theme=radical&langs_count=8" />
+</p>
+
+<!-- Streak Stats -->
+<p align="center">
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=csrand&theme=radical" />
