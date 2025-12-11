@@ -37,9 +37,6 @@
 ![Lisp](https://img.shields.io/badge/-Lisp-purple?style=flat-square&logo=lisp&logoColor=white)
 
 ---
-<!-- GitHub Stats -->
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=csrand&layout=compact&theme=radical&langs_count=8" />
-</p>
-
-
+[![My Awesome Stats](https://awesome-github-stats.azurewebsites.net/user-stats/Csrand?cardType=level&theme=flag-brazil&preferLogin=true)](https://git.io/awesome-stats-card)
+[![GitHub Streak](https://streak-stats.demolab.com/?user=Csrand)](https://git.io/streak-stats)
+---
