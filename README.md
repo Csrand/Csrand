@@ -38,7 +38,7 @@
 
 ---
 
-<div align="center">
+<div>
     <img src="https://github-readme-stats.vercel.app/api?username=Csrand&show_icons=true&theme=radical" alt="Csrand's GitHub Stats" />
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Csrand&layout=compact&theme=radical&langs_count=20" alt="Top Langs" />
 </div>
