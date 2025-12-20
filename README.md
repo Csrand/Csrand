@@ -37,5 +37,4 @@
 ![Lisp](https://img.shields.io/badge/-Lisp-purple?style=flat-square&logo=lisp&logoColor=white)
 
 ---
-[![My Awesome Stats](https://awesome-github-stats.azurewebsites.net/user-stats/Csrand?cardType=level&theme=flag-brazil&preferLogin=true)](https://git.io/awesome-stats-card)
----
+
