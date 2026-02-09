@@ -37,5 +37,9 @@
 ![Lisp](https://img.shields.io/badge/-Lisp-purple?style=flat-square&logo=lisp&logoColor=white)
 
 ---
+<div align="center">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Csrand&theme=great-gatsby" alt="Csrand's GitHub Streak" />
 
 [![My Awesome Stats](https://awesome-github-stats.azurewebsites.net/user-stats/Csrand?cardType=level-alternate&theme=great-gatsby&fontFamily=OpenDyslexic&preferLogin=false)](https://git.io/awesome-stats-card)
+
+</div>
